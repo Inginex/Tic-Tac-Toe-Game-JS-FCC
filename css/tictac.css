@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+html, body {
+background: rgb(121, 246, 215);
+}
+.buttons {
+  width: 300px;
+  margin: 100px auto;
+}
+button {
+  width: 100px;
+  height: 100px;
+  float: left;
+  font-size: 65px;
+  background: rgb(121, 246, 215);
+}
+button:hover {
+  background-color: rgb(186, 242, 233);
+}
+.X {
+  background-color: #4A98E4;
+  color: white;
+}
+.X:hover {
+  background-color: #1A60A5;
+  color: white;
+}
+.O {
+  background-color: #FE67A7;
+  color: white;
+}
+.O:hover {
+  background-color: #C52F6E;
+  color: white;
+}
+
+button:first-child {
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+}
+button:nth-child(2) {
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+}
+button:nth-child(3) {
+  border-bottom: 2px solid black;
+}
+button:nth-child(4) {
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+}
+button:nth-child(5) {
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+}
+button:nth-child(6) {
+  border-bottom: 2px solid black;
+}
+button:nth-child(7) {
+  border-right: 2px solid black;
+}
+button:nth-child(8) {
+  border-right: 2px solid black;
+}
